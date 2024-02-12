@@ -65,16 +65,26 @@ section {
   padding: 10px;
   border-radius: 10px;
 }
+.error{
+   color: var(--Strawberryred);
+  /* display: none; */
+}
+.input-error{
+  border: 2px solid var(--Strawberryred);
+}
 
 .form-control{
   margin-top: 1rem;
 }
 
+
 .form-control:focus {
   box-shadow: none;
   border: 1px solid var(--Marineblue);
   outline: none;
+  outline: none;
 }
+
 .top h4,
 label {
   color: var(--Marineblue);
@@ -133,14 +143,14 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 75vh;
+    height: 85vh;
     background-color: var(--White);
     padding: 15px;
     border-radius: 10px;
   }
   main {
     width: 30% !important;
-    height: 70vh;
+    height: 80vh;
     flex-direction: column;
     justify-content: flex-start;
     background-image: url("../assets/images/bg-sidebar-desktop.svg");

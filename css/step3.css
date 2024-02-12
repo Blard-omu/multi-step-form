@@ -77,7 +77,7 @@ section {
   height: 10vh;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   border-radius: 10px;
   border: 1px solid var(--Coolgray);
 }
@@ -85,10 +85,16 @@ section {
   border: 1px solid var(--Purplishblue);
   background-color: var(--Magnolia);
 }
-.box-icon{
-  line-height: 14px;
+/* .box-icon{
+  line-height: 20px;
+} */
+.box-content{
+  /* box-sizing: content-box; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
-.box-content h4, .lbox :nth-child(1){
+.fb, .lbox :nth-child(1){
   color: var(--Marineblue);
 }
 .box-content p{
@@ -100,7 +106,10 @@ section {
   justify-content: space-between;
   font-size: .8rem;
 }
-.box b{
+.fb{
+  font-size: 1rem;
+}
+.lb{
   color: var(--Purplishblue);
 }
 input[type="checkbox"]{
@@ -219,19 +228,24 @@ p {
   }
 
   .box{
-    flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-between;
-    height: 18vh;
-    padding: 10px 0 10px 10px;
+    height: 10vh;
+    width: 80%;
     }
-    .box-content h4{
+    .fb{
+      font-size: 1.3rem;
+    }
+    .box-content p{
       font-size: 1rem;
     }
     .main-section {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
+    }
+    .btn-container{
+      width: 80%;
     }
     .go-back{
       background-color: var(--White) !important;
