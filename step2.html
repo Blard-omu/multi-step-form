@@ -89,7 +89,8 @@
             </div>
             <div class="box-content ms-4 ms-md-0">
               <h4>Arcade</h4>
-              <p>$9/mo</p>
+              <p id="arcadePrice">$9/mo</p>
+              <p class="" id="arcade"></p>
             </div>
           </div>
 
@@ -99,7 +100,8 @@
             </div>
             <div class="box-content ms-4 ms-md-0">
               <h4>Advanced</h4>
-              <p>$12/mo</p>
+              <p id="advancePrice">$12/mo</p>
+              <p class="" id="advance"></p>
             </div>
           </div>
           <div class="box col-12 col-md-3">
@@ -108,22 +110,23 @@
             </div>
             <div class="box-content ms-4 ms-md-0">
               <h4>Pro</h4>
-              <p>$15/mo</p>
+              <p id="proPrice">$15/mo</p>
+              <p class="" id="pro"></p>
             </div>
           </div>
           <div class=" lbox col-12">
             <b>Monthly</b>
             <div class="form-check form-switch mx-3 mx-lg-4">
-              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked >
+              <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
               <label class="form-check-label" for="flexSwitchCheckChecked"></label>
             </div>
             <b>Yearly</b>
-          </div>
+          </div> 
         </div>
 
         <!-- md, lg button -->
         <div class="btn-container d-none d-md-flex justify-content-between">
-          <a class="btn go-back btn-lg mb-3" href="./index.html">Go Back</a>
+          <a class="btn go-back btn-lg mb-3" href="./index.html" id="goBack">Go Back</a>
           <a class="btn btn-lg mb-3" href="./step3.html">Next Step</a>
         </div>
       </section>
@@ -134,8 +137,12 @@
     <div
       class="next-btn container py-3 d-md-none d-flex justify-content-between"
     >
-      <a class="btn go-back btn-lg mb-3" href="./index.html">Go Back</a>
+      <a class="btn go-back btn-lg mb-3" href="./index.html" id="goBack">Go Back</a>
       <a class="btn btn-lg mb-3" href="./step3.html">Next Step</a>
     </div>
+
+    <script src="./js/step2.js"></script>
+    <script src="./js/index.js"></script>
+    
   </body>
 </html>

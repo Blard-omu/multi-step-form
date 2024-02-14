@@ -146,6 +146,10 @@ p {
   color: var(--Lightblue);
   opacity: .9;
 }
+
+#arcade, #advance, #pro{
+  color: var(--Marineblue);
+}
 /* madia query */
 
 @media (min-width: 768px) and (max-width: 900px){
